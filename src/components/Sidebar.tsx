@@ -41,26 +41,6 @@ const Sidebar: React.FC<SidebarProps> = ({ menuItems, activeView, setActiveView,
           })}
         </ul>
       </nav>
-      
-      <div className="absolute bottom-4 left-4 right-4">
-        <div className="bg-gray-700 rounded-lg p-4">
-          <h4 className="text-white font-medium mb-2">System Status</h4>
-          <div className="space-y-2 text-sm">
-            <div className="flex justify-between">
-              <span className="text-gray-400">Cameras Online</span>
-              <span className="text-green-400">12/12</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-gray-400">AI Models</span>
-              <span className="text-green-400">Active</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="text-gray-400">Database</span>
-              <span className="text-green-400">Connected</span>
-            </div>
-          </div>
-        </div>
-      </div>
     </aside>
   );
 };
